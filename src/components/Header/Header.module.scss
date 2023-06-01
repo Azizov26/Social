@@ -1,0 +1,12 @@
+.top {
+    grid-area: h;
+    background-color: green;
+
+    &__image {
+      background-image: url("/assets/images/logo.jpg");
+      width: 80px;
+      height: 80px;
+      background-size: contain;
+    }
+}
+
